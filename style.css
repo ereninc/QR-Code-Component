@@ -9,12 +9,12 @@
 }
 
 body {
-  background-color: gray;
+  background-color: var(--light-gray);
 }
 
 .component {
   width: 400px;
-  height: 580px;
+  height: 600px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 150px;
@@ -28,6 +28,7 @@ body {
   height: 350px;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 10px 50px 25px rgb(23, 78, 144, 0.55);
 }
 
 .qr-image img {
@@ -37,7 +38,7 @@ body {
 }
 
 .text-content {
-  margin-top: 50px;
+  margin-top: 64px;
   margin-left: auto;
   margin-right: auto;
   width: 300px;
